@@ -540,6 +540,13 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_calendar.h" />
+		<Unit filename="lvgl/lv_objx/lv_canvas.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lvgl/lv_objx/lv_canvas.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_cb.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -616,6 +623,13 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_slider.h" />
+		<Unit filename="lvgl/lv_objx/lv_spinbox.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lvgl/lv_objx/lv_spinbox.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_sw.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -624,10 +638,24 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_ta.h" />
+		<Unit filename="lvgl/lv_objx/lv_table.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lvgl/lv_objx/lv_table.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_tabview.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_tabview.h" />
+		<Unit filename="lvgl/lv_objx/lv_tileview.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lvgl/lv_objx/lv_tileview.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="lvgl/lv_objx/lv_win.c">
 			<Option compilerVar="CC" />
 		</Unit>
