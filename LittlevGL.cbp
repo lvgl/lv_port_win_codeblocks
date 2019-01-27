@@ -486,6 +486,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_misc/lv_fs.h" />
+		<Unit filename="lvgl/lv_misc/lv_gc.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/lv_misc/lv_ll.c">
 			<Option compilerVar="CC" />
 		</Unit>
