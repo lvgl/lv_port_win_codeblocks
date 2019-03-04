@@ -59,7 +59,7 @@ int main(int argc, char** argv)
     hal_init();
 
     /*Load a demo*/
-    demo_create();
+    //demo_create();
 
     /*Try the benchmark to see how fast is your GUI*/
     //benchmark_create();
@@ -69,7 +69,8 @@ int main(int argc, char** argv)
     //tpcal_create();
 
     /*Check the themes too*/
-    //lv_test_theme_1(lv_theme_night_init(210, NULL));
+    lv_disp_set_default(lv_windows_disp);
+    demo_create();
 #if WIN32
     while(!lv_win_exit_flag) {
 #else
