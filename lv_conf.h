@@ -6,6 +6,8 @@
 #ifndef LV_CONF_H
 #define LV_CONF_H
 
+#warning This file must be updated to v6.0 standards before dev-6.0 is released
+
 #if defined(_WIN32) && !defined(WIN32)
 #define WIN32
 #endif
@@ -156,7 +158,7 @@
 #define LV_THEME_LIVE_UPDATE    1       /*1: Allow theme switching at run time. Uses 8..10 kB of RAM*/
 
 #define USE_LV_THEME_TEMPL      0       /*Just for test*/
-#define USE_LV_THEME_DEFAULT    1       /*Built mainly from the built-in styles. Consumes very few RAM*/
+#define LV_USE_THEME_DEFAULT    1       /*Built mainly from the built-in styles. Consumes very few RAM*/
 #define USE_LV_THEME_ALIEN      1       /*Dark futuristic theme*/
 #define USE_LV_THEME_NIGHT      1       /*Dark elegant theme*/
 #define USE_LV_THEME_MONO       1       /*Mono color theme for monochrome displays*/
@@ -367,6 +369,14 @@
 #define USE_LV_SW       1
 
 /*************************
+ * Custom userdata types
+ *************************/
+
+typedef void * lv_disp_drv_user_data_t;
+typedef void * lv_indev_drv_user_data_t;
+typedef void * lv_obj_user_data_t;
+typedef void * lv_group_user_data_t;
+/*************************
  * Non-user section
  *************************/
 #ifdef _MSC_VER                               /* Disable warnings for Visual Studio*/
@@ -374,6 +384,7 @@
 #endif
 
 /*--END OF LV_CONF_H--*/
+
 
 /*Be sure every define has a default value*/
 #include "lvgl/lv_conf_checker.h"

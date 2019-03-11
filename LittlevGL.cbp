@@ -270,9 +270,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.h" />
-		<Unit filename="lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.h" />
 		<Unit filename="lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c">
 			<Option compilerVar="CC" />
@@ -333,6 +330,9 @@
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" />
 		<Unit filename="lvgl/lv_conf_templ.h" />
+		<Unit filename="lvgl/lv_core/lv_disp.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/lv_core/lv_group.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -353,9 +353,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_core/lv_style.h" />
-		<Unit filename="lvgl/lv_core/lv_vdb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/lv_core/lv_vdb.h" />
 		<Unit filename="lvgl/lv_draw/lv_draw.c">
 			<Option compilerVar="CC" />
@@ -365,6 +362,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_arc.h" />
+		<Unit filename="lvgl/lv_draw/lv_draw_basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_img.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -377,9 +377,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_line.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_rbasic.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_rbasic.h" />
 		<Unit filename="lvgl/lv_draw/lv_draw_rect.c">
 			<Option compilerVar="CC" />
@@ -389,9 +386,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_triangle.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_vbasic.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/lv_draw/lv_draw_vbasic.h" />
 		<Unit filename="lvgl/lv_fonts/lv_font_builtin.c">
 			<Option compilerVar="CC" />
@@ -519,9 +513,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/lv_misc/lv_txt.h" />
-		<Unit filename="lvgl/lv_misc/lv_ufs.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/lv_misc/lv_ufs.h" />
 		<Unit filename="lvgl/lv_objx/lv_arc.c">
 			<Option compilerVar="CC" />
