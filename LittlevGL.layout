@@ -2,64 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="lv_examples\lv_tests\lv_test_objx\lv_test_table\lv_test_table.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1237" topLine="64" />
-		</Cursor>
-	</File>
-	<File name="lvgl\lv_core\lv_indev.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="22345" topLine="642" />
-		</Cursor>
-	</File>
-	<File name="lvgl\lv_core\lv_obj.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1298" topLine="36" />
-		</Cursor>
-	</File>
-	<File name="lvgl\lv_misc\lv_color.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3245" topLine="113" />
-		</Cursor>
-	</File>
-	<File name="lv_drivers\indev\keyboard.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="440" topLine="14" />
-		</Cursor>
-	</File>
-	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1491" topLine="59" />
-		</Cursor>
-	</File>
-	<File name="lv_ex_conf.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="746" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="lv_drivers\win_drv.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="327" topLine="32" />
-		</Cursor>
-	</File>
-	<File name="lv_drivers\display\monitor.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="289" topLine="31" />
-		</Cursor>
-	</File>
-	<File name="lv_drv_conf.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3056" topLine="64" />
-		</Cursor>
-	</File>
-	<File name="lv_drivers\indev\mouse.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="519" topLine="16" />
-		</Cursor>
-	</File>
 	<File name="lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="8940" topLine="36" />
+			<Cursor1 position="8940" topLine="231" />
 		</Cursor>
 	</File>
 	<File name="lv_drivers\display\fbdev.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -67,9 +12,14 @@
 			<Cursor1 position="3320" topLine="129" />
 		</Cursor>
 	</File>
-	<File name="lvgl\lv_conf_templ.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lv_examples\lv_tests\lv_test_objx\lv_test_table\lv_test_table.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="13476" topLine="326" />
+			<Cursor1 position="1237" topLine="64" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_misc\lv_area.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1285" topLine="38" />
 		</Cursor>
 	</File>
 	<File name="lvgl\lv_core\lv_group.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -77,9 +27,34 @@
 			<Cursor1 position="2057" topLine="49" />
 		</Cursor>
 	</File>
-	<File name="lvgl\lv_core\lv_obj.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lv_drivers\indev\mouse.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6417" topLine="194" />
+			<Cursor1 position="519" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="lv_drivers\display\monitor.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="289" topLine="31" />
+		</Cursor>
+	</File>
+	<File name="lv_drivers\win_drv.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="327" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_conf_templ.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13476" topLine="326" />
+		</Cursor>
+	</File>
+	<File name="lv_ex_conf.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="746" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_core\lv_obj.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1298" topLine="36" />
 		</Cursor>
 	</File>
 	<File name="lv_drivers\indev\evdev.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -87,14 +62,9 @@
 			<Cursor1 position="1977" topLine="84" />
 		</Cursor>
 	</File>
-	<File name="lv_drivers\display\monitor.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lvgl\lv_hal\lv_hal_indev.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="305" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="lv_drivers\win_drv.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="30" topLine="90" />
+			<Cursor1 position="2103" topLine="68" />
 		</Cursor>
 	</File>
 	<File name="lvgl\lv_core\lv_vdb.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -102,24 +72,9 @@
 			<Cursor1 position="2117" topLine="59" />
 		</Cursor>
 	</File>
-	<File name="lv_examples\lv_tests\lv_test_objx\lv_test_sw\lv_test_sw.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lvgl\lv_core\lv_obj.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1146" topLine="66" />
-		</Cursor>
-	</File>
-	<File name="lvgl\lv_hal\lv_hal_disp.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2407" topLine="85" />
-		</Cursor>
-	</File>
-	<File name="lv_examples\lv_apps\benchmark\benchmark.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="209" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="lvgl\lv_hal\lv_hal_indev.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2103" topLine="68" />
+			<Cursor1 position="6417" topLine="194" />
 		</Cursor>
 	</File>
 	<File name="lvgl\lv_misc\lv_color.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -127,10 +82,65 @@
 			<Cursor1 position="107" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="lv_conf.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lvgl\lv_core\lv_indev.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="812" topLine="27" />
+			<Cursor1 position="22345" topLine="642" />
 		</Cursor>
 	</File>
-	<EditorTabsLayout layout="0796c2105c86caa00000183f00000002=*0;LittlevGL:main.c,1;LittlevGL:lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.c,2;LittlevGL:lv_ex_conf.h,4;LittlevGL:lv_conf.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=574;besth=216;minw=574;minh=216;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0796c2105c86caa00000183f00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+	<File name="lv_conf.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1396" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="lv_examples\lv_tests\lv_test_objx\lv_test_sw\lv_test_sw.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1146" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="lv_drivers\indev\keyboard.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="440" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="lv_drivers\display\monitor.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="305" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_misc\lv_color.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3245" topLine="113" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_hal\lv_hal_disp.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2407" topLine="85" />
+		</Cursor>
+	</File>
+	<File name="lv_drivers\win_drv.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="94" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1203" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="lvgl\lv_objx\lv_btnm.c" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="30686" topLine="803" />
+		</Cursor>
+	</File>
+	<File name="lv_drv_conf.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3056" topLine="64" />
+		</Cursor>
+	</File>
+	<File name="lv_examples\lv_apps\benchmark\benchmark.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="209" topLine="0" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="079e7ee05c8c3df80000155c00000002=0;LittlevGL:main.c,1;LittlevGL:lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.c,2;LittlevGL:lv_ex_conf.h,3;LittlevGL:lv_conf.h,4;LittlevGL:lv_drivers\win_drv.c,5;LittlevGL:lvgl\lv_misc\lv_area.h,*6;LittlevGL:lvgl\lv_objx\lv_btnm.c@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=854;besth=348;minw=854;minh=348;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=079e7ee05c8c3df80000155c00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>

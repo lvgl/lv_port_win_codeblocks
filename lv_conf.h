@@ -387,6 +387,6 @@ typedef void * lv_group_user_data_t;
 
 
 /*Be sure every define has a default value*/
-#include "lvgl/lv_conf_checker.h"
+#include "lvgl/src/lv_conf_checker.h"
 
 #endif /*LV_CONF_H*/
