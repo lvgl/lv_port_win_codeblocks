@@ -417,6 +417,18 @@
 		<Unit filename="lvgl/lv_themes/lv_theme_templ.h" />
 		<Unit filename="lvgl/lv_themes/lv_theme_zen.h" />
 		<Unit filename="lvgl/lvgl.h" />
+		<Unit filename="lvgl/porting/lv_port_disp_tempalte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
+		<Unit filename="lvgl/porting/lv_port_fs_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_fs_template.h" />
+		<Unit filename="lvgl/porting/lv_port_indev_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_indev_template.h" />
 		<Unit filename="lvgl/src/lv_conf_checker.h" />
 		<Unit filename="lvgl/src/lv_conf_templ.h" />
 		<Unit filename="lvgl/src/lv_core/lv_disp.c">
@@ -600,6 +612,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_txt.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_objx/lv_arc.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -728,17 +743,8 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_objx/lv_win.h" />
-		<Unit filename="lvgl/src/lv_porting/lv_port_disp_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_porting/lv_port_disp_templ.h" />
-		<Unit filename="lvgl/src/lv_porting/lv_port_fs_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_porting/lv_port_fs_templ.h" />
-		<Unit filename="lvgl/src/lv_porting/lv_port_indev_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_porting/lv_port_indev_templ.h" />
 		<Unit filename="lvgl/src/lv_themes/lv_theme.c">
 			<Option compilerVar="CC" />
