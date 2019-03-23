@@ -417,7 +417,7 @@
 		<Unit filename="lvgl/lv_themes/lv_theme_templ.h" />
 		<Unit filename="lvgl/lv_themes/lv_theme_zen.h" />
 		<Unit filename="lvgl/lvgl.h" />
-		<Unit filename="lvgl/porting/lv_port_disp_tempalte.c">
+		<Unit filename="lvgl/porting/lv_port_disp_template.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
