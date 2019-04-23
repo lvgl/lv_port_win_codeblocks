@@ -90,6 +90,9 @@
 
 /*Feature usage*/
 #define LV_USE_ANIMATION        1               /*1: Enable all animations*/
+#if LV_USE_ANIMATION
+typedef void * lv_anim_user_data_t;
+#endif
 #define LV_USE_SHADOW           1               /*1: Enable shadows*/
 #define LV_USE_GROUP            1               /*1: Enable object groups (for keyboards)*/
 #if LV_USE_GROUP
