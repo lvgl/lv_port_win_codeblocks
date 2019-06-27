@@ -68,9 +68,9 @@ int main(int argc, char** argv)
 
     /*Check the themes too*/
     lv_disp_set_default(lv_windows_disp);
-    //demo_create();
+    demo_create();
     //lv_test_theme_2();
-    lv_tutorial_animations();
+    //lv_tutorial_animations();
 #if WIN32
     while(!lv_win_exit_flag) {
 #else

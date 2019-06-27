@@ -1679,7 +1679,8 @@
 1553042908 c:\users\trains\lv_sim_win\lv_drv_conf.h
 	"lv_conf.h"
 
-1555986158 c:\users\trains\lv_sim_win\lv_conf.h
+1561649157 c:\users\trains\lv_sim_win\lv_conf.h
+	<stdint.h>
 	"lvgl/src/lv_conf_checker.h"
 
 1552341190 c:\users\trains\lv_sim_win\lvgl\lv_conf_checker.h
@@ -1700,7 +1701,7 @@
 	<stdbool.h>
 	<stdint.h>
 
-1555986107 source:c:\users\trains\lv_sim_win\lv_drivers\display\monitor.c
+1561649063 source:c:\users\trains\lv_sim_win\lv_drivers\display\monitor.c
 	"monitor.h"
 	<stdlib.h>
 	<stdbool.h>
@@ -1929,7 +1930,7 @@
 	<stdbool.h>
 	"lvgl/lvgl.h"
 
-1552830459 c:\users\trains\lv_sim_win\lvgl\lvgl.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\lvgl.h
 	"src/lv_version.h"
 	"src/lv_misc/lv_log.h"
 	"src/lv_misc/lv_task.h"
@@ -1940,6 +1941,8 @@
 	"src/lv_core/lv_refr.h"
 	"src/lv_core/lv_disp.h"
 	"src/lv_themes/lv_theme.h"
+	"src/lv_font/lv_font.h"
+	"src/lv_font/lv_font_fmt_txt.h"
 	"src/lv_objx/lv_btn.h"
 	"src/lv_objx/lv_imgbtn.h"
 	"src/lv_objx/lv_img.h"
@@ -1972,6 +1975,7 @@
 	"src/lv_objx/lv_preload.h"
 	"src/lv_objx/lv_calendar.h"
 	"src/lv_objx/lv_spinbox.h"
+	"src/lv_draw/lv_img_cache.h"
 
 1551745292 c:\users\trains\lv_sim_win\lvgl\lv_version.h
 
@@ -2284,7 +2288,7 @@
 	"../lv_core/lv_obj.h"
 	"../lv_objx/lv_ta.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\benchmark\benchmark.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\benchmark\benchmark.c
 	"benchmark.h"
 	<stdio.h>
 
@@ -2300,7 +2304,7 @@
 	"lvgl/lvgl.h"
 	"lv_ex_conf.h"
 
-1557692830 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\demo\demo.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\demo\demo.c
 	"demo.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_apps\demo\demo.h
@@ -2313,7 +2317,7 @@
 	"lvgl/lvgl.h"
 	"lv_ex_conf.h"
 
-1557692830 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\sysmon\sysmon.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\sysmon\sysmon.c
 	"sysmon.h"
 	<stdio.h>
 
@@ -2323,7 +2327,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\terminal\terminal.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\terminal\terminal.c
 	"terminal.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_apps\terminal\terminal.h
@@ -2332,7 +2336,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\tpcal\tpcal.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_apps\tpcal\tpcal.c
 	"tpcal.h"
 	<stdio.h>
 
@@ -2342,7 +2346,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_group\lv_test_group.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_group\lv_test_group.c
 	"stdio.h"
 	"lv_test_group.h"
 	"lv_drv_conf.h"
@@ -2405,7 +2409,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_btnm\lv_test_btnm.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_btnm\lv_test_btnm.c
 	<stdio.h>
 	"lv_test_btnm.h"
 
@@ -2415,7 +2419,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cb\lv_test_cb.c
+1561649178 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cb\lv_test_cb.c
 	"lv_test_cb.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cb\lv_test_cb.h
@@ -2424,7 +2428,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_chart\lv_test_chart.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_chart\lv_test_chart.c
 	"lv_test_chart.h"
 	<stdlib.h>
 
@@ -2434,7 +2438,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552698474 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cont\lv_test_cont.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cont\lv_test_cont.c
 	"lv_test_cont.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_cont\lv_test_cont.h
@@ -2443,7 +2447,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_ddlist\lv_test_ddlist.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_ddlist\lv_test_ddlist.c
 	"lv_test_ddlist.h"
 	<stdio.h>
 
@@ -2466,7 +2470,7 @@
 	"lvgl/lvgl.h"
 	"lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_img\lv_test_img.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_img\lv_test_img.c
 	"lv_test_img.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_img\lv_test_img.h
@@ -2510,7 +2514,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_label\lv_test_label.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_label\lv_test_label.c
 	"lv_test_label.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_label\lv_test_label.h
@@ -2519,7 +2523,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_led\lv_test_led.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_led\lv_test_led.c
 	"lv_test_led.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_led\lv_test_led.h
@@ -2528,7 +2532,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552341211 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_line\lv_test_line.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_line\lv_test_line.c
 	"lv_test_line.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_line\lv_test_line.h
@@ -2537,7 +2541,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_list\lv_test_list.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_list\lv_test_list.c
 	"lv_test_list.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_list\lv_test_list.h
@@ -2583,7 +2587,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_roller\lv_test_roller.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_roller\lv_test_roller.c
 	"lv_test_roller.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_roller\lv_test_roller.h
@@ -2601,7 +2605,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552698474 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_sw\lv_test_sw.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_sw\lv_test_sw.c
 	<stdio.h>
 	"lv_test_sw.h"
 
@@ -2638,7 +2642,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552698474 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_tileview\lv_test_tileview.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_tileview\lv_test_tileview.c
 	"lv_test_tileview.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_tileview\lv_test_tileview.h
@@ -2647,7 +2651,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1552341211 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_win\lv_test_win.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_win\lv_test_win.c
 	"lv_test_win.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_win\lv_test_win.h
@@ -2656,7 +2660,7 @@
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
 
-1557692830 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_stress\lv_test_stress.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_stress\lv_test_stress.c
 	<stdio.h>
 	"lv_test_stress.h"
 
@@ -2666,7 +2670,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.c
 	"lv_test_theme_1.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.h
@@ -2675,7 +2679,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_2.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_2.c
 	"lv_test_theme_2.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_theme\lv_test_theme_2.h
@@ -2714,7 +2718,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\2_objects\lv_tutorial_objects.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\2_objects\lv_tutorial_objects.c
 	"lv_tutorial_objects.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\2_objects\lv_tutorial_objects.h
@@ -2759,7 +2763,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\6_images\lv_tutorial_images.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\6_images\lv_tutorial_images.c
 	"lv_tutorial_images.h"
 	"lvgl/lvgl.h"
 	<stdio.h>
@@ -2787,7 +2791,7 @@
 	"lvgl/lvgl.h"
 	"lv_ex_conf.h"
 
-1555986114 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\7_fonts\lv_tutorial_fonts.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\7_fonts\lv_tutorial_fonts.c
 	"lv_tutorial_fonts.h"
 	"lvgl/lvgl.h"
 
@@ -2797,7 +2801,7 @@
 	"../../../lvgl/lvgl.h"
 	"../../../lv_ex_conf.h"
 
-1557693075 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\8_animations\lv_tutorial_animations.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\8_animations\lv_tutorial_animations.c
 	"lv_tutorial_animations.h"
 
 1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\8_animations\lv_tutorial_animations.h
@@ -3393,16 +3397,17 @@
 1551745292 source:c:\users\trains\lv_sim_win\lvgl\lv_core\lv_disp.c
 	"lv_disp.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_conf_checker.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_conf_checker.h
+	<stdint.h>
 
 1552830460 c:\users\trains\lv_sim_win\lvgl\src\lv_version.h
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_log.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_log.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_task.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_task.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
@@ -3410,14 +3415,14 @@
 	"lv_mem.h"
 	"lv_ll.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_mem.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_mem.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 	<stddef.h>
 	"lv_log.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_ll.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_ll.h
 	"lv_mem.h"
 	<stdint.h>
 	<stddef.h>
@@ -3431,7 +3436,7 @@
 	"lv_hal_indev.h"
 	"lv_hal_tick.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_disp.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_disp.h
 	<stdint.h>
 	<stdbool.h>
 	"lv_hal.h"
@@ -3440,19 +3445,19 @@
 	"../lv_misc/lv_ll.h"
 	"../lv_misc/lv_task.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_color.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_color.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_area.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_area.h
 	<string.h>
 	<stdbool.h>
 	<stdint.h>
 	"lv_conf.h"
 	"../../../lv_conf.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_indev.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_indev.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdbool.h>
@@ -3460,18 +3465,19 @@
 	"../lv_misc/lv_area.h"
 	"../lv_misc/lv_task.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_tick.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_tick.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 	<stdbool.h>
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_obj.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_obj.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stddef.h>
 	<stdbool.h>
 	"lv_style.h"
+	"../lv_misc/lv_types.h"
 	"../lv_misc/lv_area.h"
 	"../lv_misc/lv_mem.h"
 	"../lv_misc/lv_ll.h"
@@ -3479,11 +3485,11 @@
 	"../lv_misc/lv_log.h"
 	"../lv_hal/lv_hal.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_style.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_style.h
 	<stdbool.h>
+	"../lv_font/lv_font.h"
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_area.h"
-	"../lv_misc/lv_font.h"
 	"../lv_misc/lv_anim.h"
 
 1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_font.h
@@ -3504,26 +3510,27 @@
 	"../../../lv_conf.h"
 	"../lv_misc/lv_font.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_anim.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_anim.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 	<stdbool.h>
+	<string.h>
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_group.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_group.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"lv_obj.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_refr.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_refr.h
 	"lv_obj.h"
 	<stdbool.h>
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_disp.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_disp.h
 	"../lv_hal/lv_hal.h"
 	"lv_obj.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_style.h"
@@ -3569,107 +3576,110 @@
 	"lv_conf.h"
 	"../../../lv_conf.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btn.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btn.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"lv_cont.h"
 	"../lv_core/lv_indev.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cont.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cont.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_indev.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_indev.h
 	"lv_obj.h"
 	"../lv_hal/lv_hal_indev.h"
 	"../lv_core/lv_group.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_imgbtn.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_imgbtn.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_btn.h"
 	"../lv_draw/lv_draw_img.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_img.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_img.h
 	"lv_draw.h"
-	"../lv_core/lv_obj.h"
+	"lv_img_decoder.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_style.h"
 	"../lv_misc/lv_txt.h"
+	"lv_img_decoder.h"
 	"lv_draw_basic.h"
 	"lv_draw_rect.h"
 	"lv_draw_label.h"
 	"lv_draw_img.h"
 	"lv_draw_line.h"
 	"lv_draw_triangle.h"
+	"lv_draw_arc.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_txt.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_txt.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdbool.h>
 	"lv_area.h"
-	"lv_font.h"
 	"lv_area.h"
+	"../lv_font/lv_font.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_basic.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_basic.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
+	"../lv_font/lv_font.h"
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_area.h"
-	"../lv_misc/lv_font.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_rect.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_rect.h
 	"lv_draw.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_label.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_label.h
 	"lv_draw.h"
 
 1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_line.h
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_triangle.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_triangle.h
 	"lv_draw.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_img.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_img.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"../lv_misc/lv_fs.h"
-	"../lv_misc/lv_symbol_def.h"
 	"lv_label.h"
 	"../lv_draw/lv_draw.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_fs.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_fs.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 	<stdbool.h>
 	"lv_mem.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_label.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_label.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
-	"../lv_misc/lv_font.h"
+	"../lv_font/lv_font.h"
+	"../lv_font/lv_symbol_def.h"
 	"../lv_misc/lv_txt.h"
-	"../lv_misc/lv_symbol_def.h"
+	"../lv_draw/lv_draw.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_line.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_line.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_page.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_page.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"lv_cont.h"
 	"../lv_core/lv_indev.h"
+	"../lv_misc/lv_anim.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_list.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_list.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3678,7 +3688,7 @@
 	"lv_label.h"
 	"lv_img.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_chart.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_chart.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3690,73 +3700,74 @@
 	"../lv_core/lv_obj.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cb.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cb.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_btn.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_bar.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_bar.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
+	"../lv_misc/lv_anim.h"
 	"lv_cont.h"
 	"lv_btn.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_slider.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_slider.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_bar.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_led.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_led.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btnm.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btnm.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_label.h"
 	"lv_btn.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_kb.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_kb.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_btnm.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ddlist.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ddlist.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"../lv_objx/lv_page.h"
 	"../lv_objx/lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_roller.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_roller.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_ddlist.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ta.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ta.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"lv_page.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_canvas.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_canvas.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"../lv_objx/lv_img.h"
 
-1557692818 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_win.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_win.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3766,19 +3777,19 @@
 	"lv_img.h"
 	"lv_page.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tabview.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tabview.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"../lv_objx/lv_win.h"
 	"../lv_objx/lv_page.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tileview.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tileview.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_objx/lv_page.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_mbox.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_mbox.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3786,7 +3797,7 @@
 	"lv_btnm.h"
 	"lv_label.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_gauge.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_gauge.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3794,12 +3805,12 @@
 	"lv_label.h"
 	"lv_line.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_lmeter.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_lmeter.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_sw.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_sw.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
@@ -3810,42 +3821,44 @@
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_preload.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_preload.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
+	"../lv_misc/lv_anim.h"
 	"lv_arc.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_calendar.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_calendar.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_spinbox.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_spinbox.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"../lv_core/lv_obj.h"
 	"../lv_objx/lv_ta.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_disp.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_disp.c
 	"lv_disp.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_group.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_group.c
 	"lv_group.h"
 	"../lv_themes/lv_theme.h"
 	<stddef.h>
 	"../lv_misc/lv_gc.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_gc.h
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_gc.h
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	<stdint.h>
 	<stdbool.h>
 	"lv_mem.h"
 	"lv_ll.h"
+	"../lv_draw/lv_img_cache.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_indev.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_indev.c
 	"lv_indev.h"
 	"lv_disp.h"
 	"lv_obj.h"
@@ -3855,7 +3868,7 @@
 	"../lv_misc/lv_task.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_obj.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_obj.c
 	"lv_obj.h"
 	"lv_indev.h"
 	"lv_refr.h"
@@ -3871,7 +3884,7 @@
 	<string.h>
 	"../lv_misc/lv_gc.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_refr.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_refr.c
 	<stddef.h>
 	"lv_refr.h"
 	"lv_disp.h"
@@ -3880,55 +3893,60 @@
 	"../lv_misc/lv_task.h"
 	"../lv_misc/lv_mem.h"
 	"../lv_misc/lv_gc.h"
-	"../lv_draw/lv_draw_basic.h"
+	"../lv_draw/lv_draw.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_style.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_core\lv_style.c
 	"lv_obj.h"
 	"../lv_misc/lv_mem.h"
+	"../lv_misc/lv_anim.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw.c
 	<stdio.h>
 	<stdbool.h>
 	"lv_draw.h"
 	"../lv_misc/lv_math.h"
+	"../lv_misc/lv_log.h"
+	"../lv_misc/lv_math.h"
+	"../lv_misc/lv_mem.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_arc.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_arc.c
 	"lv_draw_arc.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_arc.h
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_arc.h
 	"lv_draw.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_basic.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_basic.c
 	"lv_draw_basic.h"
 	<stdbool.h>
 	<stdint.h>
 	<string.h>
 	"../lv_core/lv_refr.h"
 	"../lv_hal/lv_hal.h"
+	"../lv_font/lv_font.h"
 	"../lv_misc/lv_area.h"
-	"../lv_misc/lv_font.h"
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_log.h"
 	<stddef.h>
 	"lv_draw.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_img.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_img.c
 	"lv_draw_img.h"
-	"../lv_misc/lv_fs.h"
+	"lv_img_cache.h"
+	"../lv_misc/lv_log.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_label.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_label.c
 	"lv_draw_label.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_line.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_line.c
 	<stdio.h>
 	<stdbool.h>
 	"lv_draw.h"
 	"../lv_core/lv_refr.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_rect.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_rect.c
 	"lv_draw_rect.h"
 	"../lv_misc/lv_circ.h"
 	"../lv_misc/lv_math.h"
@@ -3938,7 +3956,7 @@
 	<stddef.h>
 	"lv_area.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_triangle.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_draw_triangle.c
 	"lv_draw_triangle.h"
 	"../lv_misc/lv_math.h"
 
@@ -3996,7 +4014,7 @@
 1552830459 source:c:\users\trains\lv_sim_win\lvgl\src\lv_fonts\lv_font_symbol_40.c
 	"../lv_misc/lv_font.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_disp.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_disp.c
 	<stdint.h>
 	<stddef.h>
 	"lv_hal.h"
@@ -4005,7 +4023,7 @@
 	"../lv_core/lv_refr.h"
 	"../lv_misc/lv_gc.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_indev.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_hal\lv_hal_indev.c
 	"../lv_hal/lv_hal_indev.h"
 	"../lv_core/lv_indev.h"
 	"../lv_misc/lv_mem.h"
@@ -4018,7 +4036,7 @@
 	"lv_hal_tick.h"
 	<stddef.h>
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_anim.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_anim.c
 	"lv_anim.h"
 	<stddef.h>
 	<string.h>
@@ -4027,7 +4045,7 @@
 	"lv_math.h"
 	"lv_gc.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_area.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_area.c
 	"lv_conf.h"
 	"../../../lv_conf.h"
 	"lv_area.h"
@@ -4044,7 +4062,7 @@
 	"lv_log.h"
 	"lv_utils.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_fs.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_fs.c
 	"lv_fs.h"
 	"lv_ll.h"
 	<string.h>
@@ -4053,27 +4071,27 @@
 1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_gc.c
 	"lv_gc.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_ll.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_ll.c
 	<stdint.h>
 	<string.h>
 	"lv_ll.h"
 	"lv_mem.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_log.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_log.c
 	"lv_log.h"
 	<stdio.h>
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_math.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_math.c
 	"lv_math.h"
 	<stdbool.h>
 	<stdlib.h>
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_mem.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_mem.c
 	"lv_mem.h"
 	"lv_math.h"
 	<string.h>
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_task.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_task.c
 	<stddef.h>
 	"lv_task.h"
 	"../lv_hal/lv_hal_tick.h"
@@ -4081,24 +4099,24 @@
 
 1552830460 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_templ.c
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_txt.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_txt.c
 	"lv_txt.h"
 	"lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_arc.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_arc.c
 	"lv_arc.h"
 	"../lv_misc/lv_math.h"
 	"../lv_draw/lv_draw_arc.h"
 	"../lv_themes/lv_theme.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_bar.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_bar.c
 	"lv_bar.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_anim.h"
 	<stdio.h>
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btn.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btn.c
 	"lv_btn.h"
 	<string.h>
 	"../lv_core/lv_group.h"
@@ -4108,7 +4126,7 @@
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btnm.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_btnm.c
 	"lv_btnm.h"
 	"../lv_core/lv_group.h"
 	"../lv_draw/lv_draw.h"
@@ -4116,7 +4134,7 @@
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_txt.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_calendar.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_calendar.c
 	"lv_calendar.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_hal/lv_hal_indev.h"
@@ -4125,24 +4143,25 @@
 	"../lv_themes/lv_theme.h"
 	<string.h>
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_canvas.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_canvas.c
 	<stdlib.h>
 	"lv_canvas.h"
 	"../lv_misc/lv_math.h"
-	"../lv_draw/lv_draw_img.h"
+	"../lv_draw/lv_draw.h"
+	"../lv_core/lv_refr.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cb.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cb.c
 	"lv_cb.h"
 	"../lv_core/lv_group.h"
 	"../lv_themes/lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_chart.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_chart.c
 	"lv_chart.h"
 	"../lv_core/lv_refr.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_themes/lv_theme.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cont.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_cont.c
 	"lv_cont.h"
 	<stdbool.h>
 	<stdint.h>
@@ -4154,18 +4173,18 @@
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ddlist.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ddlist.c
 	"lv_ddlist.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_core/lv_group.h"
 	"../lv_core/lv_indev.h"
 	"../lv_themes/lv_theme.h"
-	"../lv_misc/lv_symbol_def.h"
+	"../lv_font/lv_symbol_def.h"
 	"../lv_misc/lv_anim.h"
 	"../lv_misc/lv_math.h"
 	<string.h>
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_gauge.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_gauge.c
 	"lv_gauge.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_themes/lv_theme.h"
@@ -4175,35 +4194,35 @@
 	<stdio.h>
 	<string.h>
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_img.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_img.c
 	"lv_img.h"
 	"../lv_themes/lv_theme.h"
+	"../lv_draw/lv_img_decoder.h"
 	"../lv_misc/lv_fs.h"
 	"../lv_misc/lv_txt.h"
 	"../lv_misc/lv_log.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_imgbtn.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_imgbtn.c
 	"lv_imgbtn.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_kb.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_kb.c
 	"lv_kb.h"
 	"lv_ta.h"
 	"../lv_themes/lv_theme.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_label.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_label.c
 	"lv_label.h"
 	"../lv_core/lv_obj.h"
 	"../lv_core/lv_group.h"
-	"../lv_draw/lv_draw.h"
 	"../lv_misc/lv_color.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_led.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_led.c
 	"lv_led.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_draw/lv_draw.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_line.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_line.c
 	"lv_line.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_misc/lv_math.h"
@@ -4211,21 +4230,21 @@
 	<stdint.h>
 	<string.h>
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_list.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_list.c
 	"lv_list.h"
 	"../lv_core/lv_group.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_anim.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_lmeter.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_lmeter.c
 	"lv_lmeter.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_core/lv_group.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_mbox.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_mbox.c
 	"lv_mbox.h"
 	"../lv_core/lv_group.h"
 	"../lv_themes/lv_theme.h"
@@ -4234,7 +4253,7 @@
 
 1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_objx_templ.c
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_page.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_page.c
 	"../lv_objx/lv_page.h"
 	"../lv_core/lv_group.h"
 	"../lv_draw/lv_draw.h"
@@ -4243,38 +4262,38 @@
 	"../lv_misc/lv_anim.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_preload.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_preload.c
 	"lv_preload.h"
 	"../lv_misc/lv_math.h"
 	"../lv_draw/lv_draw_rect.h"
 	"../lv_draw/lv_draw_arc.h"
 	"../lv_themes/lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_roller.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_roller.c
 	"lv_roller.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_core/lv_group.h"
 	"../lv_themes/lv_theme.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_slider.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_slider.c
 	"lv_slider.h"
 	"../lv_core/lv_group.h"
 	"../lv_draw/lv_draw.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_spinbox.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_spinbox.c
 	"lv_spinbox.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_math.h"
 	"../lv_misc/lv_utils.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_sw.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_sw.c
 	"lv_sw.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_math.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ta.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_ta.c
 	"lv_ta.h"
 	<string.h>
 	"../lv_core/lv_group.h"
@@ -4285,27 +4304,27 @@
 	"../lv_misc/lv_txt.h"
 	"../lv_misc/lv_math.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_table.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_table.c
 	"lv_table.h"
 	"../lv_misc/lv_txt.h"
 	"../lv_misc/lv_math.h"
 	"../lv_draw/lv_draw_label.h"
 	"../lv_themes/lv_theme.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tabview.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tabview.c
 	"lv_tabview.h"
 	"lv_btnm.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_misc/lv_anim.h"
 	"../lv_core/lv_disp.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tileview.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_tileview.c
 	"lv_tileview.h"
 	<stdbool.h>
 	"lv_cont.h"
 	"../lv_themes/lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_win.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_objx\lv_win.c
 	"lv_win.h"
 	"../lv_themes/lv_theme.h"
 	"../lv_core/lv_disp.h"
@@ -4328,32 +4347,32 @@
 1552830460 c:\users\trains\lv_sim_win\lvgl\src\lv_porting\lv_port_indev_templ.h
 	"lvgl/lvgl.h"
 
-1555986099 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme.c
 	"lv_theme.h"
 	"../lv_core/lv_obj.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_alien.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_alien.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_default.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_default.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_material.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_material.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_mono.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_mono.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_nemo.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_nemo.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_night.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_night.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_templ.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_templ.c
 	"lv_theme.h"
 
-1557692818 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_zen.c
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_themes\lv_theme_zen.c
 	"lv_theme.h"
 
 1553042112 source:c:\users\trains\lv_sim_win\lvgl\porting\lv_port_disp_tempalte.c
@@ -4374,15 +4393,96 @@
 	"lv_utils.h"
 	"lv_math.h"
 
-1553381163 source:c:\users\trains\lv_sim_win\lvgl\porting\lv_port_disp_template.c
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\porting\lv_port_disp_template.c
 	"lv_port_disp_templ.h"
 
-1552830473 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_canvas\lv_test_canvas.c
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_canvas\lv_test_canvas.c
 	"lv_test_canvas.h"
 
-1552341211 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_canvas\lv_test_canvas.h
+1561649055 c:\users\trains\lv_sim_win\lv_examples\lv_tests\lv_test_objx\lv_test_canvas\lv_test_canvas.h
 	"lvgl.h"
 	"lv_ex_conf.h"
 	"../../../../lvgl/lvgl.h"
 	"../../../../lv_ex_conf.h"
+
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font.h
+	"lv_conf.h"
+	"../../../lv_conf.h"
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+	"lv_symbol_def.h"
+
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_symbol_def.h
+	"lv_conf.h"
+	"../../../lv_conf.h"
+
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_misc\lv_types.h
+
+1561649049 c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_fmt_txt.h
+	"lv_conf.h"
+	"../../../lv_conf.h"
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+	"lv_font.h"
+
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_img_decoder.h
+	"lv_conf.h"
+	"../../../lv_conf.h"
+	<stdint.h>
+	"../lv_misc/lv_fs.h"
+	"../lv_misc/lv_types.h"
+	"../lv_misc/lv_area.h"
+	"../lv_core/lv_style.h"
+
+1561649048 c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_img_cache.h
+	"lv_img_decoder.h"
+
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_img_cache.c
+	"lv_img_cache.h"
+	"../lv_hal/lv_hal_tick.h"
+	"../lv_misc/lv_gc.h"
+
+1561649048 source:c:\users\trains\lv_sim_win\lvgl\src\lv_draw\lv_img_decoder.c
+	"lv_img_decoder.h"
+	"../lv_draw/lv_draw_img.h"
+	"../lv_misc/lv_ll.h"
+	"../lv_misc/lv_color.h"
+	"../lv_misc/lv_gc.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font.c
+	"lv_font.h"
+	"../lv_misc/lv_utils.h"
+	"../lv_misc/lv_log.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_fmt_txt.c
+	"lv_font.h"
+	"lv_font_fmt_txt.h"
+	"../lv_misc/lv_log.h"
+	"../lv_misc/lv_utils.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_roboto_12.c
+	"lvgl/lvgl.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_roboto_16.c
+	"lvgl/lvgl.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_roboto_22.c
+	"lvgl/lvgl.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_roboto_28.c
+	"lvgl/lvgl.h"
+
+1561649049 source:c:\users\trains\lv_sim_win\lvgl\src\lv_font\lv_font_unscii_8.c
+	"lvgl/lvgl.h"
+
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\6_images\flower_icon_alpha.c
+	"lvgl/lvgl.h"
+
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\6_images\red_rose_16.c
+	"lvgl/lvgl.h"
+
+1561649055 source:c:\users\trains\lv_sim_win\lv_examples\lv_tutorial\7_fonts\arial_20.c
+	"lvgl/lvgl.h"
 

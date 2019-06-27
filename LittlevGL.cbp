@@ -306,6 +306,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.h" />
+		<Unit filename="lv_examples/lv_tutorial/6_images/flower_icon_alpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/6_images/lv_tutorial_images.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -313,13 +316,10 @@
 		<Unit filename="lv_examples/lv_tutorial/6_images/red_flower.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_ascii_20.c">
+		<Unit filename="lv_examples/lv_tutorial/6_images/red_rose_16.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_cyrillic_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_math_20.c">
+		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_20.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c">
@@ -405,61 +405,39 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_draw/lv_draw_triangle.h" />
-		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.c">
+		<Unit filename="lvgl/src/lv_draw/lv_img_cache.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_img_cache.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_img_decoder.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_22.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_28.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_symbol_def.h" />
 		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.h" />
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_10_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_10_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_20_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_20_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_30.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_30_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_30_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_40.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_40_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_dejavu_40_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_monospace_8.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_symbol_10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_symbol_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_symbol_30.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/lv_fonts/lv_font_symbol_40.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_hal/lv_hal.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.c">
 			<Option compilerVar="CC" />
@@ -489,9 +467,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_color.h" />
-		<Unit filename="lvgl/src/lv_misc/lv_font.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_font.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_fs.c">
 			<Option compilerVar="CC" />
@@ -530,6 +505,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_txt.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_types.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_utils.c">
 			<Option compilerVar="CC" />
 		</Unit>
