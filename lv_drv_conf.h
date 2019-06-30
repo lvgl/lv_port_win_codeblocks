@@ -112,10 +112,9 @@
  *  Native Windows (including mouse)
  *----------------------------------*/
 #ifndef USE_WINDOWS
-#  define USE_WINDOWS       0
+#  define USE_WINDOWS       1
 #endif
 
-#define USE_WINDOWS         1
 #if USE_WINDOWS
 #  define WINDOW_HOR_RES      480
 #  define WINDOW_VER_RES      320
