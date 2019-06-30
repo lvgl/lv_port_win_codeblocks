@@ -36,6 +36,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="." />
 		</Compiler>
 		<Unit filename="lv_conf.h" />
 		<Unit filename="lv_drivers/display/R61581.c">
@@ -146,6 +147,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.h" />
+		<Unit filename="lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.h" />
 		<Unit filename="lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -270,9 +275,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.h" />
-		<Unit filename="lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.h" />
 		<Unit filename="lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c">
 			<Option compilerVar="CC" />
@@ -304,6 +306,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.h" />
+		<Unit filename="lv_examples/lv_tutorial/6_images/flower_icon_alpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/6_images/lv_tutorial_images.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -311,13 +316,10 @@
 		<Unit filename="lv_examples/lv_tutorial/6_images/red_flower.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_ascii_20.c">
+		<Unit filename="lv_examples/lv_tutorial/6_images/red_rose_16.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_cyrillic_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_math_20.c">
+		<Unit filename="lv_examples/lv_tutorial/7_fonts/arial_20.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c">
@@ -332,374 +334,347 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" />
-		<Unit filename="lvgl/lv_conf_templ.h" />
-		<Unit filename="lvgl/lv_core/lv_group.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_group.h" />
-		<Unit filename="lvgl/lv_core/lv_indev.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_indev.h" />
-		<Unit filename="lvgl/lv_core/lv_obj.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_obj.h" />
-		<Unit filename="lvgl/lv_core/lv_refr.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_refr.h" />
-		<Unit filename="lvgl/lv_core/lv_style.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_style.h" />
-		<Unit filename="lvgl/lv_core/lv_vdb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_core/lv_vdb.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_arc.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_arc.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_img.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_img.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_label.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_label.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_line.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_line.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_rbasic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_rbasic.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_rect.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_rect.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_triangle.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_triangle.h" />
-		<Unit filename="lvgl/lv_draw/lv_draw_vbasic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_draw/lv_draw_vbasic.h" />
-		<Unit filename="lvgl/lv_fonts/lv_font_builtin.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_builtin.h" />
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_30.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_40.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_monospace_8.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_symbol_10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_symbol_20.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_symbol_30.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_fonts/lv_font_symbol_40.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_hal/lv_hal.h" />
-		<Unit filename="lvgl/lv_hal/lv_hal_disp.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_hal/lv_hal_disp.h" />
-		<Unit filename="lvgl/lv_hal/lv_hal_indev.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_hal/lv_hal_indev.h" />
-		<Unit filename="lvgl/lv_hal/lv_hal_tick.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_hal/lv_hal_tick.h" />
-		<Unit filename="lvgl/lv_misc/lv_anim.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_anim.h" />
-		<Unit filename="lvgl/lv_misc/lv_area.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_area.h" />
-		<Unit filename="lvgl/lv_misc/lv_circ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_circ.h" />
-		<Unit filename="lvgl/lv_misc/lv_color.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_color.h" />
-		<Unit filename="lvgl/lv_misc/lv_font.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_font.h" />
-		<Unit filename="lvgl/lv_misc/lv_fonts/lv_symbol_def.h" />
-		<Unit filename="lvgl/lv_misc/lv_fs.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_fs.h" />
-		<Unit filename="lvgl/lv_misc/lv_gc.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_ll.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_ll.h" />
-		<Unit filename="lvgl/lv_misc/lv_log.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_log.h" />
-		<Unit filename="lvgl/lv_misc/lv_math.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_math.h" />
-		<Unit filename="lvgl/lv_misc/lv_mem.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_mem.h" />
-		<Unit filename="lvgl/lv_misc/lv_symbol_def.h" />
-		<Unit filename="lvgl/lv_misc/lv_task.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_task.h" />
-		<Unit filename="lvgl/lv_misc/lv_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_templ.h" />
-		<Unit filename="lvgl/lv_misc/lv_trigo.h" />
-		<Unit filename="lvgl/lv_misc/lv_txt.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_txt.h" />
-		<Unit filename="lvgl/lv_misc/lv_ufs.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_misc/lv_ufs.h" />
-		<Unit filename="lvgl/lv_objx/lv_arc.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_arc.h" />
-		<Unit filename="lvgl/lv_objx/lv_bar.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_bar.h" />
-		<Unit filename="lvgl/lv_objx/lv_btn.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_btn.h" />
-		<Unit filename="lvgl/lv_objx/lv_btnm.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_btnm.h" />
-		<Unit filename="lvgl/lv_objx/lv_calendar.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_calendar.h" />
-		<Unit filename="lvgl/lv_objx/lv_canvas.c">
-			<Option compilerVar="CC" />
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_canvas.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_cb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_cb.h" />
-		<Unit filename="lvgl/lv_objx/lv_chart.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_chart.h" />
-		<Unit filename="lvgl/lv_objx/lv_cont.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_cont.h" />
-		<Unit filename="lvgl/lv_objx/lv_ddlist.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_ddlist.h" />
-		<Unit filename="lvgl/lv_objx/lv_gauge.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_gauge.h" />
-		<Unit filename="lvgl/lv_objx/lv_img.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_img.h" />
-		<Unit filename="lvgl/lv_objx/lv_imgbtn.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_imgbtn.h" />
-		<Unit filename="lvgl/lv_objx/lv_kb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_kb.h" />
-		<Unit filename="lvgl/lv_objx/lv_label.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_label.h" />
-		<Unit filename="lvgl/lv_objx/lv_led.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_led.h" />
-		<Unit filename="lvgl/lv_objx/lv_line.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_line.h" />
-		<Unit filename="lvgl/lv_objx/lv_list.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_list.h" />
-		<Unit filename="lvgl/lv_objx/lv_lmeter.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_lmeter.h" />
-		<Unit filename="lvgl/lv_objx/lv_mbox.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_mbox.h" />
-		<Unit filename="lvgl/lv_objx/lv_objx_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_objx_templ.h" />
-		<Unit filename="lvgl/lv_objx/lv_page.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_page.h" />
-		<Unit filename="lvgl/lv_objx/lv_preload.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_preload.h" />
-		<Unit filename="lvgl/lv_objx/lv_roller.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_roller.h" />
-		<Unit filename="lvgl/lv_objx/lv_slider.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_slider.h" />
-		<Unit filename="lvgl/lv_objx/lv_spinbox.c">
-			<Option compilerVar="CC" />
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_spinbox.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_sw.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_sw.h" />
-		<Unit filename="lvgl/lv_objx/lv_ta.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_ta.h" />
-		<Unit filename="lvgl/lv_objx/lv_table.c">
-			<Option compilerVar="CC" />
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_table.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_tabview.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_tabview.h" />
-		<Unit filename="lvgl/lv_objx/lv_tileview.c">
-			<Option compilerVar="CC" />
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_tileview.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_win.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_objx/lv_win.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_alien.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_alien.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_default.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_default.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_material.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_material.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_mono.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_mono.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_nemo.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_nemo.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_night.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_night.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_templ.h" />
-		<Unit filename="lvgl/lv_themes/lv_theme_zen.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/lv_themes/lv_theme_zen.h" />
+		<Unit filename="lvgl/lv_conf_template.h" />
 		<Unit filename="lvgl/lvgl.h" />
+		<Unit filename="lvgl/porting/lv_port_disp_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
+		<Unit filename="lvgl/porting/lv_port_fs_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_fs_template.h" />
+		<Unit filename="lvgl/porting/lv_port_indev_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/porting/lv_port_indev_template.h" />
+		<Unit filename="lvgl/src/lv_conf_checker.h" />
+		<Unit filename="lvgl/src/lv_core/lv_disp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_disp.h" />
+		<Unit filename="lvgl/src/lv_core/lv_group.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_group.h" />
+		<Unit filename="lvgl/src/lv_core/lv_indev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_indev.h" />
+		<Unit filename="lvgl/src/lv_core/lv_obj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_obj.h" />
+		<Unit filename="lvgl/src/lv_core/lv_refr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_refr.h" />
+		<Unit filename="lvgl/src/lv_core/lv_style.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_style.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_arc.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_basic.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_img.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_label.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_line.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_rect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_rect.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_draw_triangle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_draw_triangle.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_img_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_img_cache.h" />
+		<Unit filename="lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_draw/lv_img_decoder.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_22.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_28.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_symbol_def.h" />
+		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.h" />
+		<Unit filename="lvgl/src/lv_hal/lv_hal.h" />
+		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.h" />
+		<Unit filename="lvgl/src/lv_hal/lv_hal_indev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_hal/lv_hal_indev.h" />
+		<Unit filename="lvgl/src/lv_hal/lv_hal_tick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_hal/lv_hal_tick.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_anim.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_area.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_area.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_circ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_circ.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_color.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_color.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_font.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_fs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_fs.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_gc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_gc.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_ll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_ll.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_log.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_math.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_mem.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_symbol_def.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_task.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_templ.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_txt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_txt.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_types.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_utils.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_arc.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_bar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_bar.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_btn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_btn.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_btnm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_btnm.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_calendar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_calendar.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_canvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_canvas.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_cb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_cb.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_chart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_chart.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_cont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_cont.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_ddlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_ddlist.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_gauge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_gauge.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_img.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_imgbtn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_imgbtn.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_kb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_kb.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_label.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_led.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_line.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_list.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_lmeter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_lmeter.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_mbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_mbox.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_objx_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_objx_templ.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_page.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_page.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_preload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_preload.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_roller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_roller.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_slider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_slider.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_spinbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_spinbox.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_sw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_sw.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_ta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_ta.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_table.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_tabview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_tabview.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_tileview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_tileview.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_win.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_alien.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_alien.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_default.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_default.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_material.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_material.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_mono.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_mono.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_nemo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_nemo.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_night.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_night.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_templ.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_zen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_zen.h" />
+		<Unit filename="lvgl/src/lv_version.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
