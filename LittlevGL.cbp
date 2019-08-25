@@ -459,6 +459,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_area.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_async.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_async.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_circ.c">
 			<Option compilerVar="CC" />
 		</Unit>
