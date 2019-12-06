@@ -349,6 +349,10 @@
 		</Unit>
 		<Unit filename="lvgl/porting/lv_port_indev_template.h" />
 		<Unit filename="lvgl/src/lv_conf_checker.h" />
+		<Unit filename="lvgl/src/lv_core/lv_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_core/lv_debug.h" />
 		<Unit filename="lvgl/src/lv_core/lv_disp.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -424,6 +428,9 @@
 		<Unit filename="lvgl/src/lv_font/lv_font_roboto_12.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_12_subpx.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_roboto_16.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -431,6 +438,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_roboto_28.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_roboto_28_compressed.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_unscii_8.c">
@@ -463,6 +473,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_async.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_bidi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_bidi.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_circ.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -496,6 +510,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_mem.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_printf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_printf.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_symbol_def.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_task.c">
 			<Option compilerVar="CC" />
@@ -550,6 +568,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_objx/lv_cont.h" />
+		<Unit filename="lvgl/src/lv_objx/lv_cpicker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_objx/lv_cpicker.h" />
 		<Unit filename="lvgl/src/lv_objx/lv_ddlist.c">
 			<Option compilerVar="CC" />
 		</Unit>
