@@ -43,6 +43,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/display/R61581.h" />
+		<Unit filename="lv_drivers/display/SHARP_MIP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/display/SHARP_MIP.h" />
 		<Unit filename="lv_drivers/display/SSD1963.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -51,6 +55,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/display/ST7565.h" />
+		<Unit filename="lv_drivers/display/UC1610.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/display/UC1610.h" />
 		<Unit filename="lv_drivers/display/fbdev.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -79,10 +87,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/indev/keyboard.h" />
+		<Unit filename="lv_drivers/indev/libinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/indev/libinput_drv.h" />
 		<Unit filename="lv_drivers/indev/mouse.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/indev/mouse.h" />
+		<Unit filename="lv_drivers/indev/mousewheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/indev/mousewheel.h" />
 		<Unit filename="lv_drivers/lv_drv_conf_templ.h" />
 		<Unit filename="lv_drivers/win_drv.c">
 			<Option compilerVar="CC" />
@@ -105,13 +121,13 @@
 		<Unit filename="lv_examples/assets/img_cogwheel_rgb.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_12_compr_az.c">
+		<Unit filename="lv_examples/assets/lv_font_montserrat_12_compr_az.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_16_compr_az.c">
+		<Unit filename="lv_examples/assets/lv_font_montserrat_16_compr_az.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_28_compr_az.c">
+		<Unit filename="lv_examples/assets/lv_font_montserrat_28_compr_az.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/lv_apps/benchmark/benchmark.h" />
@@ -177,6 +193,86 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h" />
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_bright.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_eco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_hue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_pc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_tel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_wifi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_cloud.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_copy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_internet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_mobile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_no_internet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_phone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_printer2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_ready.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan_example.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_wave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer.h" />
+		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer_theme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer_theme.h" />
 		<Unit filename="lv_examples/src/lv_demo_stress/lv_demo_stress.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -257,6 +353,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_2.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c">
@@ -373,6 +472,9 @@
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -380,6 +482,7 @@
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lv_examples/src/lv_examples.h" />
 		<Unit filename="lvgl/lv_conf_template.h" />
 		<Unit filename="lvgl/lvgl.h" />
 		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
@@ -388,9 +491,6 @@
 		<Unit filename="lvgl/src/lv_api_map.h" />
 		<Unit filename="lvgl/src/lv_conf_checker.h" />
 		<Unit filename="lvgl/src/lv_conf_internal.h" />
-		<Unit filename="lvgl/src/lv_core/lv_debug.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_core/lv_debug.h" />
 		<Unit filename="lvgl/src/lv_core/lv_disp.c">
 			<Option compilerVar="CC" />
@@ -467,6 +567,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -534,11 +637,18 @@
 		<Unit filename="lvgl/src/lv_font/lv_font_montserrat_48.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_simsun_16_cjk.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_unscii_8.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_symbol_def.h" />
 		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.h" />
+		<Unit filename="lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.c">
 			<Option compilerVar="CC" />
@@ -568,14 +678,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_bidi.h" />
-		<Unit filename="lvgl/src/lv_misc/lv_circ.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_circ.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_color.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_color.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_debug.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_font.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_fs.c">
 			<Option compilerVar="CC" />
@@ -618,6 +729,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_txt.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_txt_ap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_txt_ap.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_types.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_utils.c">
 			<Option compilerVar="CC" />
@@ -819,6 +934,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_widgets/lv_win.h" />
+		<Unit filename="lvgl/src/lvgl.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
