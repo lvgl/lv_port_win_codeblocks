@@ -39,6 +39,10 @@
 			<Add directory="." />
 		</Compiler>
 		<Unit filename="lv_conf.h" />
+		<Unit filename="lv_drivers/display/ILI9341.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/display/ILI9341.h" />
 		<Unit filename="lv_drivers/display/R61581.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -67,6 +71,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/display/monitor.h" />
+		<Unit filename="lv_drivers/gtkdrv/gtkdrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/gtkdrv/gtkdrv.h" />
 		<Unit filename="lv_drivers/indev/AD_touch.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -100,6 +108,7 @@
 		</Unit>
 		<Unit filename="lv_drivers/indev/mousewheel.h" />
 		<Unit filename="lv_drivers/lv_drv_conf_templ.h" />
+		<Unit filename="lv_drivers/lv_drv_conf_template.h" />
 		<Unit filename="lv_drivers/win_drv.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -119,6 +128,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/assets/img_cogwheel_rgb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_examples/assets/img_hand.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_examples/assets/lv_font_montserrat_12_compr_az.c">
@@ -379,6 +391,9 @@
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_1.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -574,6 +589,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_loader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_loader.h" />
 		<Unit filename="lvgl/src/lv_font/lv_font_montserrat_12.c">
 			<Option compilerVar="CC" />
 		</Unit>
