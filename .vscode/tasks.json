@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe build active file",
+            "command": "mingw32-make.exe",
+            "args": [
+                "-j8",
+            ],
+            "options": {
+                "cwd": "C:\\Qt\\Qt5.14.2\\Tools\\mingw730_32\\bin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ],
+    "version": "2.0.0"
+}
