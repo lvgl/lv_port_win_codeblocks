@@ -116,8 +116,8 @@
 #endif
 
 #if USE_WINDOWS
-#  define WINDOW_HOR_RES      480
-#  define WINDOW_VER_RES      320
+#  define WINDOW_HOR_RES      LV_HOR_RES_MAX
+#  define WINDOW_VER_RES      LV_VER_RES_MAX
 #endif
 
 /*----------------
