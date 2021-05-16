@@ -1,9 +1,10 @@
 /**
- * @file lv_ex_conf.h
+ * @file lv_demo_conf.h
+ * Configuration file for v8.0.0
  *
  */
 /*
- * COPY THIS FILE AS lv_ex_conf.h
+ * COPY THIS FILE AS lv_demo_conf.h
  */
 
 #if 1 /*Set it to "1" to enable the content*/
@@ -30,7 +31,7 @@
 #endif
 
 /*Printer demo, optimized for 800x480*/
-#define LV_USE_DEMO_PRINTER     0
+#define LV_USE_DEMO_PRINTER     1
 
 /*Demonstrate the usage of encoder and keyboard*/
 #define LV_USE_DEMO_KEYPAD_AND_ENCODER     0
@@ -40,6 +41,8 @@
 
 /*Stress test for LVGL*/
 #define LV_USE_DEMO_STRESS      0
+
+#define LV_USE_COMPONENT_EXAMPLES   1
 
 #endif /*LV_EX_CONF_H*/
 
