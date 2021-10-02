@@ -41,6 +41,212 @@
 		</Compiler>
 		<Unit filename="lv_conf.h" />
 		<Unit filename="lv_demo_conf.h" />
+		<Unit filename="lv_demos/src/lv_demo.h" />
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/img_benchmark_cogwheel_alpha16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/img_benchmark_cogwheel_argb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/img_benchmark_cogwheel_indexed16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/img_benchmark_cogwheel_rgb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/lv_font_montserrat_12_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/lv_font_montserrat_16_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/assets/lv_font_montserrat_28_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/lv_demo_benchmark.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_benchmark/lv_demo_benchmark.h" />
+		<Unit filename="lv_demos/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_corner_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_list_pause.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_list_pause_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_list_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_list_play_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_loop_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_next.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_next_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_pause.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_pause_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_play_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_prev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_prev_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_rnd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_btn_rnd_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_corner_left.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_corner_left_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_corner_right.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_corner_right_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_1_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_2_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_cover_3_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_1_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_2_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_3_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_icon_4_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_list_border.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_list_border_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_slider_knob.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_slider_knob_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_wave_bottom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_wave_bottom_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_wave_top.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/img_lv_demo_music_wave_top_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/assets/spectrum_1.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/assets/spectrum_2.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/assets/spectrum_3.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music_list.h" />
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_music/lv_demo_music_main.h" />
+		<Unit filename="lv_demos/src/lv_demo_stress/assets/lv_font_montserrat_12_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_stress/assets/lv_font_montserrat_16_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_stress/assets/lv_font_montserrat_28_compr_az.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_stress/lv_demo_stress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_stress/lv_demo_stress.h" />
+		<Unit filename="lv_demos/src/lv_demo_widgets/assets/img_clothes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_widgets/assets/img_demo_widgets_avatar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_widgets/assets/img_lvgl_logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_widgets/lv_demo_widgets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_demos/src/lv_demo_widgets/lv_demo_widgets.h" />
 		<Unit filename="lv_drivers/display/ILI9341.h" />
 		<Unit filename="lv_drivers/display/R61581.h" />
 		<Unit filename="lv_drivers/display/SHARP_MIP.h" />
@@ -122,191 +328,17 @@
 		<Unit filename="lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.h" />
 		<Unit filename="lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" />
 		<Unit filename="lv_examples/src/lv_demo.h" />
-		<Unit filename="lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.h" />
-		<Unit filename="lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h" />
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_corner_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_pause.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_pause_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_play.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_play_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_loop.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_loop_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_next.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_next_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_pause.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_pause_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_play.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_play_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_prev.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_prev_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_rnd.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_rnd_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_left.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_left_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_right.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_right_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_1_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_2_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_3_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_1_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_2_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_3_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_4.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_4_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_list_border.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_list_border_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_logo.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_slider_knob.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_slider_knob_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_bottom.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_bottom_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_top.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_top_large.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_music/assets/lv_demo_music_font_16_bold.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_music/assets/spectrum_1.h" />
 		<Unit filename="lv_examples/src/lv_demo_music/assets/spectrum_2.h" />
 		<Unit filename="lv_examples/src/lv_demo_music/assets/spectrum_3.h" />
-		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music.h" />
-		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music_list.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music_list.h" />
-		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music_main.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_music/lv_demo_music_main.h" />
 		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer.h" />
 		<Unit filename="lv_examples/src/lv_demo_printer/lv_demo_printer_theme.h" />
-		<Unit filename="lv_examples/src/lv_demo_stress/assets/lv_font_montserrat_12_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_stress/assets/lv_font_montserrat_16_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_stress/assets/lv_font_montserrat_28_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_stress/lv_demo_stress.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_stress/lv_demo_stress.h" />
-		<Unit filename="lv_examples/src/lv_demo_widgets/assets/img_clothes.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_widgets/assets/img_demo_widgets_avatar.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_widgets/assets/img_lvgl_logo.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_demo_widgets/lv_demo_widgets.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_widgets/lv_demo_widgets.h" />
 		<Unit filename="lv_examples/src/lv_ex_get_started/lv_ex_get_started.h" />
 		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style.h" />
@@ -699,6 +731,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/core/lv_obj_style.h" />
+		<Unit filename="lvgl/src/core/lv_obj_style_gen.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/core/lv_obj_style_gen.h" />
 		<Unit filename="lvgl/src/core/lv_obj_tree.c">
 			<Option compilerVar="CC" />
@@ -770,6 +805,11 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/extra/lv_extra.h" />
+		<Unit filename="lvgl/src/extra/others/lv_others.h" />
+		<Unit filename="lvgl/src/extra/others/snapshot/lv_snapshot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/extra/others/snapshot/lv_snapshot.h" />
 		<Unit filename="lvgl/src/extra/themes/basic/lv_theme_basic.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -779,6 +819,10 @@
 		</Unit>
 		<Unit filename="lvgl/src/extra/themes/default/lv_theme_default.h" />
 		<Unit filename="lvgl/src/extra/themes/lv_themes.h" />
+		<Unit filename="lvgl/src/extra/themes/mono/lv_theme_mono.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/extra/themes/mono/lv_theme_mono.h" />
 		<Unit filename="lvgl/src/extra/widgets/animimg/lv_animimg.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -958,10 +1002,52 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/gpu/lv_gpu_nxp_vglite.h" />
+		<Unit filename="lvgl/src/gpu/lv_gpu_sdl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/lv_gpu_sdl.h" />
 		<Unit filename="lvgl/src/gpu/lv_gpu_stm32_dma2d.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/gpu/lv_gpu_stm32_dma2d.h" />
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_blend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_draw_rect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_lru.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_lru.h" />
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_mask.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_mask.h" />
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_stack_blur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_stack_blur.h" />
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_texture_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_texture_cache.h" />
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/gpu/sdl/lv_gpu_sdl_utils.h" />
 		<Unit filename="lvgl/src/hal/lv_hal.h" />
 		<Unit filename="lvgl/src/hal/lv_hal_disp.c">
 			<Option compilerVar="CC" />
@@ -1116,6 +1202,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/misc/lv_anim.h" />
+		<Unit filename="lvgl/src/misc/lv_anim_timeline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/misc/lv_anim_timeline.h" />
 		<Unit filename="lvgl/src/misc/lv_area.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1165,6 +1255,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/misc/lv_style.h" />
+		<Unit filename="lvgl/src/misc/lv_style_gen.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/misc/lv_style_gen.h" />
 		<Unit filename="lvgl/src/misc/lv_templ.c">
 			<Option compilerVar="CC" />

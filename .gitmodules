@@ -5,5 +5,5 @@
 	path = lv_drivers
 	url = https://github.com/littlevgl/lv_drivers
 [submodule "lv_examples"]
-	path = lv_examples
+	path = lv_demos
 	url = https://github.com/littlevgl/lv_examples
