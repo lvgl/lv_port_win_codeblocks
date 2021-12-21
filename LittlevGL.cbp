@@ -19,6 +19,7 @@
 					<Add directory="lvgl" />
 				</Compiler>
 				<Linker>
+					<Add option="-mwindows -mconsole" />
 					<Add library="mingw32" />
 				</Linker>
 			</Target>
