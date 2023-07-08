@@ -502,6 +502,16 @@ e.g. "stm32f769xx.h" or "stm32f429xx.h"*/
 /*Enable the examples to be built with the library*/
 #define LV_BUILD_EXAMPLES   1
 
+/*===================
+ * DEMO USAGE
+ ====================*/
+
+/*Show some widget. It might be required to increase `LV_MEM_SIZE` */
+#define LV_USE_DEMO_WIDGETS 1
+#if LV_USE_DEMO_WIDGETS
+#define LV_DEMO_WIDGETS_SLIDESHOW 0
+#endif
+
 /*--END OF LV_CONF_H--*/
 
 #endif /*LV_CONF_H*/
