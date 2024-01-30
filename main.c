@@ -11,10 +11,7 @@
 #include <unistd.h>
 
 #include "lvgl/lvgl.h"
-#include "lv_drivers/win32drv/win32drv.h"
-
-#include <windows.h>
-
+#include "lvgl/demos/lv_demos.h"
 
 /*********************
  *      DEFINES
@@ -27,12 +24,11 @@
 /**********************
  *  STATIC PROTOTYPES
  **********************/
-static void hal_init(void);
-static int tick_thread(void *data);
 
 /**********************
  *  STATIC VARIABLES
  **********************/
+static const wchar_t * title = L"LVGL port Windows CodeBlocks.      https://lvgl.io | https://docs.lvgl.io";
 
 /**********************
  *      MACROS
@@ -43,11 +39,12 @@ static int tick_thread(void *data);
  **********************/
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine, int nCmdShow)
 {
-    /*Initialize LittlevGL*/
+    /*Initialize LVGL*/
     lv_init();
 
-    /*Initialize the HAL for LittlevGL*/
-    lv_win32_init(hInstance, SW_SHOWNORMAL, 800, 480, NULL);
+    /*Initialize the HAL for LVGL*/
+    lv_display_t * display = lv_windows_create_display(title, 800, 480, 100, FALSE, FALSE);
+    lv_windows_acquire_pointer_indev(display);
 
     /*Output prompt information to the console, you can also use printf() to print directly*/
     LV_LOG_USER("LVGL initialization completed!");
@@ -55,11 +52,11 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLi
     /*Run the demo*/
     lv_demo_widgets();
 
-    while(!lv_win32_quit_signal) {
+    while(1) {
         /* Periodically call the lv_task handler.
          * It could be done in a timer interrupt or an OS task too.*/
         lv_task_handler();
-        usleep(10000);       /*Just to let the system breath*/
+        usleep(5000);       /*Just to let the system breath*/
     }
     return 0;
 }
