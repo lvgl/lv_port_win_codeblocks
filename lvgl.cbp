@@ -12,7 +12,7 @@
 				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-std=c99" />
+					<Add option="-std=c17" />
 					<Add option="-g" />
 					<Add option="-DWINVER=0x0601" />
 					<Add option="-DWIN32" />
@@ -419,6 +419,8 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/demos/widgets/lv_demo_widgets.h" />
+		<Unit filename="lvgl/lv_conf_template.h" />
+		<Unit filename="lvgl/lvgl.h" />
 		<Unit filename="lvgl/src/core/lv_global.h" />
 		<Unit filename="lvgl/src/core/lv_group.c">
 			<Option compilerVar="CC" />
@@ -516,14 +518,11 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/lv_draw_vector.h" />
-		<Unit filename="lvgl/src/draw/lv_image_buf.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lvgl/src/draw/lv_image_buf.h" />
 		<Unit filename="lvgl/src/draw/lv_image_decoder.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/lv_image_decoder.h" />
+		<Unit filename="lvgl/src/draw/lv_image_dsc.h" />
 		<Unit filename="lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -638,7 +637,7 @@
 		<Unit filename="lvgl/src/draw/sw/arm2d/lv_draw_sw_arm2d.h" />
 		<Unit filename="lvgl/src/draw/sw/arm2d/lv_draw_sw_helium.h" />
 		<Unit filename="lvgl/src/draw/sw/blend/arm2d/lv_blend_arm2d.h" />
-		<Unit filename="lvgl/src/draw/sw/blend/arm2d/lv_blend_helium.h" />
+		<Unit filename="lvgl/src/draw/sw/blend/helium/lv_blend_helium.h" />
 		<Unit filename="lvgl/src/draw/sw/blend/lv_draw_sw_blend.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -746,6 +745,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_decoder.h" />
+		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_grad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_grad.h" />
 		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_math.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -754,6 +757,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_path.h" />
+		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_pending.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_pending.h" />
 		<Unit filename="lvgl/src/draw/vg_lite/lv_vg_lite_utils.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -792,6 +799,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/drivers/evdev/lv_evdev.h" />
+		<Unit filename="lvgl/src/drivers/libinput/lv_libinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/drivers/libinput/lv_libinput.h" />
+		<Unit filename="lvgl/src/drivers/libinput/lv_xkb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/drivers/libinput/lv_xkb.h" />
 		<Unit filename="lvgl/src/drivers/lv_drivers.h" />
 		<Unit filename="lvgl/src/drivers/nuttx/lv_nuttx_cache.c">
 			<Option compilerVar="CC" />
@@ -805,6 +820,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h" />
+		<Unit filename="lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/drivers/nuttx/lv_nuttx_image_cache.h" />
 		<Unit filename="lvgl/src/drivers/nuttx/lv_nuttx_lcd.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1013,6 +1032,9 @@
 		<Unit filename="lvgl/src/libs/fsdrv/lv_fs_fatfs.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/src/libs/fsdrv/lv_fs_littlefs.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/libs/fsdrv/lv_fs_memfs.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1156,7 +1178,8 @@
 		</Unit>
 		<Unit filename="lvgl/src/libs/tjpgd/tjpgd.h" />
 		<Unit filename="lvgl/src/libs/tjpgd/tjpgdcnf.h" />
-		<Unit filename="lvgl/src/lv_api_map.h" />
+		<Unit filename="lvgl/src/lv_api_map_v8.h" />
+		<Unit filename="lvgl/src/lv_api_map_v9_0.h" />
 		<Unit filename="lvgl/src/lv_conf_internal.h" />
 		<Unit filename="lvgl/src/lv_conf_kconfig.h" />
 		<Unit filename="lvgl/src/lv_init.c">
