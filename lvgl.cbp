@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="LittlevGL" />
+		<Option title="LVGL" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/LittlevGL" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/LVGL" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
@@ -27,13 +27,13 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/LittlevGL" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/LVGL" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O3" />
-					<Add option="-std=c99" />
+					<Add option="-std=c17" />
 					<Add option="-DWINVER=0x0601" />
 					<Add option="-DWIN32" />
 					<Add option="-D_WIN32" />
@@ -42,6 +42,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-O3" />
+					<Add option="-lmingw32 -mwindows -mconsole" />
+					<Add library="mingw32" />
 				</Linker>
 			</Target>
 		</Build>
@@ -2188,10 +2190,9 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<code_completion>
-				<search_path add="E:\Projects\LittlevGL\" />
-			</code_completion>
-		</Extensions>
+		<Unit filename="resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
