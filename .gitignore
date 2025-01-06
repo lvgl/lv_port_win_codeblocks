@@ -51,6 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 /*.depend
+bin/
+obj/
 
 .DS_Store
 .vscode
